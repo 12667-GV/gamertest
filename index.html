@@ -1,0 +1,264 @@
+<style type="text/css"> /*estilo de tabela em css*/
+	.tg  
+	{
+		border-collapse:collapse; /*faz que a borda da tabela seja uma linha única*/
+		border-spacing:0; /*põe o espaço da borda nulo */
+		margin:0px auto; /*sem margem*/
+	}
+
+	.tg td /*estilo de formatação para as células*/
+	{
+		border-color:black; /*cor da borda preta*/
+		border-style:solid; /*estilo sólido*/
+		border-width:1px; /*espessura da linha 1pixel*/
+		font-family:Arial, sans-serif;font-size:14px; /*define a fonte de texto para as células da tabela*/
+		overflow:hidden; /*a função overflow definirá e ajudará as fontes que são muito grandes para a área específica*/
+		padding:10px 5px; /*para organizar melhor as posições na tabela*/
+	}
+
+	.tg .tg-ladodireito /*estilo do lado direito da turma*/
+	{
+		background-color:#fffc9e; /*cor de fundo*/
+		color:#e67300; /*cor de texto*/
+		text-align:center; /*alinhamento to texto*/
+		vertical-align:top /*alinhamento do texto*/
+	}
+
+	.tg .tg-pink /*cor das zonas não habitadas da sala de aula*/
+	{
+		background-color:#ffe6ff; /*cor de fundo*/
+	}
+
+	.tg .tg-professor /* estilo do lugar do professor*/
+	{
+		background-color:#cc9966; /* cor de fundo*/
+		font-family:"Arial Black", Gadget, sans-serif !important;; /*formatação do texto, em negrito*/
+		text-align:center;vertical-align:top /*alinhamento do texto*/
+	}
+	.tg .tg-ladoesquerdo /* lado esquerdo da sala de aula*/
+	{
+		background-color:#fffc9e; /* cor de fundo*/
+		color:#994d00; /*cor do texto*/
+		text-align:center; /*alinhamento do texto*/
+		vertical-align:top /*alinhamento do texto*/
+	}
+</style> 
+
+<table class="tg" 
+	table-layout: fixed; 
+	width: 1159px"> <!-- cria a tabela com a classe definida no código css--><!-- define a tabela com as dimensões desejadas--><!--comprimento da tabela-->
+	<colgroup> <!--aqui escolhi as dimensões que queria especificamente para cada coluna,tive de ajustar algumas pelos nomes de colegas-->
+		<col style="width: 126px"><!--tamanho predefenido-->
+		<col style="width: 126px"><!--tamanho predefenido-->
+		<col style="width: 131px"><!--tamanho ajustado-->
+		<col style="width: 131px"><!--tamanho ajustado-->
+		<col style="width: 126px"><!--tamanho predefenido-->
+		<col style="width: 131px"><!--tamanho ajustado-->
+		<col style="width: 136px"><!--tamanho ajustado-->
+		<col style="width: 126px"><!--tamanho predefenido-->
+		<col style="width: 126px"><!--tamanho predefenido-->
+	</colgroup>
+	<tr> <!--primeiro row da tabela -->
+		<td class="tg-pink"><!--zona não habitada da sala de aula-->
+		</td>	
+		<td class="tg-pink"><!--zona não habitada da sala de aula-->
+		</td>	
+		<td class="tg-pink"><!--zona não habitada da sala de aula-->
+		</td>	
+		<td class="tg-pink"><!--zona não habitada da sala de aula-->
+		</td>	
+		<td class="tg-pink"><!--zona não habitada da sala de aula-->
+		</td>	
+		<td class="tg-pink"><!--zona não habitada da sala de aula-->
+		</td>	
+		<td class="tg-professor">Professor<br>Luís Pita <!--lugar do professor com as características de célula definidas em css-->
+		</td>	
+		<td class="tg-pink"><!--zona não habitada da sala de aula-->
+		</td>	
+		<td class="tg-pink"><!--zona não habitada da sala de aula-->
+		</td>
+	</tr>
+
+	<tr>
+		<td class="tg-ladoesquerdo"><!--habitante do lado esquerdo da sala de aula, com o estilo de célula definida no css-->
+			<a href="imagens\nyckollasgrande.jpg" target="_blank"><!--hiperligação para a imagem de 900x1600, com a feature blank para abrir um novo separador, quando clicada-->
+				<img src="imagens\nyckollaspequeno.jpg" alt="Caricatura Nyckollas"><!--display da imagem 75x100 que está na pasta imagens e definimos o texto alternativo-->  
+			</a>
+			Nickollas Brandão<br>nº20<br>12.6<!--nome número e turma-->
+		</td>
+
+		<td class="tg-ladoesquerdo"><!--habitante do lado esquerdo da sala de aula, com o estilo de célula definida no css-->
+			<a href="imagens\andregrande.jpg" target="_blank"><!--hiperligação para a imagem de 900x1600, com a feature blank para abrir um novo separador, quando clicada-->
+				<img src="imagens\andrepequeno.jpg" alt="Caricatura Andre"><!--display da imagem 75x100 que está na pasta imagens e definimos o texto alternativo-->
+			</a>
+			<br>André Jesus<br>nº4<br>12.6<!--nome número e turma-->
+		</td>
+		<td class="tg-pink"><!--zona não habitada da sala de aula-->
+		</td>
+
+		<td class="tg-ladoesquerdo"><!--habitante do lado esquerdo da sala de aula, com o estilo de célula definida no css-->
+			<a href="imagens\camilygrande.jpg" target="_blank"><!--hiperligação para a imagem de 900x1600, com a feature blank para abrir um novo separador, quando clicada-->
+				<img src="imagens\camilypequeno.jpg" alt="Caricatura Camily"><!--display da imagem 75x100 que está na pasta imagens e definimos o texto alternativo-->  
+			</a>
+			Camily Lopes<br>nº3<br>12.2<!--nome número e turma-->
+		</td>
+
+		<td class="tg-pink"><!--zona não habitada da sala de aula-->
+		</td>
+
+		<td class="tg-ladodireito"><!--habitante do lado direito da sala de aula, com o estilo de célula definida no css-->
+			<a href="imagens\miriamgrande.jpg" target="_blank"><!--hiperligação para a imagem de 900x1600, com a feature blank para abrir um novo separador, quando clicada-->
+				<img src="imagens\miriampequeno.jpg" alt="Caricatura Miriam"><!--display da imagem 75x100 que está na pasta imagens e definimos o texto alternativo-->  
+			</a>
+			Miriam Gonçalves<br>nº19<br>12.6<!--nome número e turma-->
+		</td>
+
+		<td class="tg-ladodireito"><!--habitante do lado direito da sala de aula, com o estilo de célula definida no css-->
+			<a href="imagens\leonardogrande.jpg" target="_blank"><!--hiperligação para a imagem de 900x1600, com a feature blank para abrir um novo separador, quando clicada-->
+				<img src="imagens\leonardopequeno.jpg" alt="Caricatura Leonardo"><!--display da imagem 75x100 que está na pasta imagens e definimos o texto alternativo-->  
+			</a>
+			Leonardo Bernardo<br>nº14 <br>12.6 <!--nome número e turma-->
+		</td>
+
+		<td class="tg-ladodireito"><!--habitante do lado direito da sala de aula, com o estilo de célula definida no css-->
+			<a href="imagens\paulogrande.jpg" target="_blank"><!--hiperligação para a imagem de 900x1600, com a feature blank para abrir um novo separador, quando clicada-->
+				<img src="imagens\paulopequeno.jpg" alt="Caricatura Paulo"><!--display da imagem 75x100 que está na pasta imagens e definimos o texto alternativo-->  
+			</a>
+			<br>Paulo Pinto <br>nº20<br>12.2<!--nome número e turma-->
+		</td>
+
+		<td class="tg-ladodireito"><a href="imagens\borgesgrande.jpg" target="_blank"><!--hiperligação para a imagem de 900x1600, com a feature blank para abrir um novo separador, quando clicada-->
+				<img src="imagens\borgespequeno.jpg" alt="Caricatura Borges"><!--display da imagem 75x100 que está na pasta imagens e definimos o texto alternativo-->  
+			</a><!--habitante do lado direito da sala de aula, com o estilo de célula definida no css-->
+			<br>João Borges<br>nº13<br>12.2<!--nome número e turma-->
+		</td>
+	</tr>
+ 
+	<tr>
+		<td class="tg-ladoesquerdo"><!--habitante do lado esquerdo da sala de aula, com o estilo de célula definida no css-->
+			<a href="imagens\fialhogrande.jpg" target="_blank"><!--hiperligação para a imagem de 900x1600, com a feature blank para abrir um novo separador, quando clicada-->
+				<img src="imagens\fialhopequeno.jpg" alt="Caricatura Fialho"><!--display da imagem 75x100 que está na pasta imagens e definimos o texto alternativo-->
+			</a>
+			Ricardo Fialho<br>nº23<br>12.2<!--nome número e turma-->
+		</td>
+		<td class="tg-ladoesquerdo"><!--habitante do lado esquerdo da sala de aula, com o estilo de célula definida no css-->
+			<a href="imagens\diogogrande.jpg" target="_blank"><!--hiperligação para a imagem de 900x1600, com a feature blank para abrir um novo separador, quando clicada-->
+				<img src="imagens\diogopequeno.jpg" alt="Caricatura Diogo"><!--display da imagem 75x100 que está na pasta imagens e definimos o texto alternativo-->
+			</a>
+			<br>Diogo Santos<br>nº5<br>12.2<!--nome número e turma-->
+		</td>
+		<td class="tg-ladoesquerdo"><!--habitante do lado esquerdo da sala de aula, com o estilo de célula definida no css-->
+			<a href="imagens\sebastiaogrande.jpg" target="_blank"><!--hiperligação para a imagem de 900x1600, com a feature blank para abrir um novo separador, quando clicada-->
+				<img src="imagens\sebastiaopequeno.jpg" alt="Caricatura Sebastião"><!--display da imagem 75x100 que está na pasta imagens e definimos o texto alternativo-->
+			</a>
+			Sebastião Antunes<br>nº24<br>12.2<!--nome número e turma-->
+		</td>
+		<td class="tg-ladoesquerdo"><!--habitante do lado esquerdo da sala de aula, com o estilo de célula definida no css-->
+			<a href="imagens\valientegrande.jpg" target="_blank"><!--hiperligação para a imagem de 900x1600, com a feature blank para abrir um novo separador, quando clicada-->
+				<img src="imagens\valientepequeno.jpg" alt="Caricatura Valiente"><!--display da imagem 75x100 que está na pasta imagens e definimos o texto alternativo-->
+			</a>
+			Guilherme Valiente<br>nº8<br>12.2<!--nome número e turma-->
+		</td>
+		<td class="tg-pink"><!--zona não habitada da sala de aula-->
+		</td>
+		<td class="tg-ladodireito"><!--habitante do lado direito da sala de aula, com o estilo de célula definida no css-->
+			<a href="imagens\franciscogrande.jpg" target="_blank"><!--hiperligação para a imagem de 900x1600, com a feature blank para abrir um novo separador, quando clicada-->
+				<img src="imagens\franciscopequeno.jpg" alt="Caricatura Francisco"><!--display da imagem 75x100 que está na pasta imagens e definimos o texto alternativo-->
+			</a>
+			Francisco Almeida<br>nº6<br>12.2<!--nome número e turma-->
+		</td>
+		<td class="tg-ladodireito"><!--habitante do lado direito da sala de aula, com o estilo de célula definida no css-->
+			<a href="imagens\cabogrande.jpg" target="_blank"><!--hiperligação para a imagem de 900x1600, com a feature blank para abrir um novo separador, quando clicada-->
+				<img src="imagens\cabopequeno.jpg" alt="Caricatura 	Cabo"><!--display da imagem 75x100 que está na pasta imagens e definimos o texto alternativo-->  
+			</a>
+			Guilherme Cabo<br>nº7<br>12.2<!--nome número e turma-->
+		</td>
+		<td class="tg-ladodireito"><!--habitante do lado direito da sala de aula, com o estilo de célula definida no css-->
+			<a href="imagens\henriquegrande.jpg" target="_blank"><!--hiperligação para a imagem de 900x1600, com a feature blank para abrir um novo separador, quando clicada-->
+				<img src="imagens\henriquepequeno.jpg" alt="Caricatura Henrique"><!--display da imagem 75x100 que está na pasta imagens e definimos o texto alternativo-->
+			</a>
+			Henrique Silva <br>nº9<br>12.2<!--nome número e turma-->
+		</td>
+		<td class="tg-ladodireito"><!--habitante do lado direito da sala de aula, com o estilo de célula definida no css-->
+			<a href="imagens\xaviergrande.jpg" target="_blank"><!--hiperligação para a imagem de 900x1600, com a feature blank para abrir um novo separador, quando clicada-->
+				<img src="imagens\xavierpequeno.jpg" alt="Caricatura Xavier"><!--display da imagem 75x100 que está na pasta imagens e definimos o texto alternativo-->  
+			</a>
+			Xavier Alves<br>nº25<br>12.6<!--nome número e turma-->
+		</td>
+	</tr>
+	<tr>
+		<td class="tg-ladoesquerdo"><!--habitante do lado esquerdo da sala de aula, com o estilo de célula definida no css-->
+			<a href="imagens\lealgrande.jpg" target="_blank"><!--hiperligação para a imagem de 900x1600, com a feature blank para abrir um novo separador, quando clicada-->
+				<img src="imagens\lealpequeno.jpg" alt="Caricatura Leal"><!--display da imagem 75x100 que está na pasta imagens e definimos o texto alternativo-->
+			</a>
+			<br>João Leal<br>nº15<br>12.2<!--nome número e turma-->
+		</td>
+		<td class="tg-ladoesquerdo"><!--habitante do lado esquerdo da sala de aula, com o estilo de célula definida no css-->
+			<a href="imagens\correiagrande.jpg" target="_blank"><!--hiperligação para a imagem de 900x1600, com a feature blank para abrir um novo separador, quando clicada-->
+				<img src="imagens\correiapequeno.jpg" alt="Caricatura Correia"><!--display da imagem 75x100 que está na pasta imagens e definimos o texto alternativo-->
+			</a>
+			Miguel Correia<br>nº18<br>12.2<!--nome número e turma-->
+		</td>
+		<td class="tg-ladoesquerdo"><!--habitante do lado esquerdo da sala de aula, com o estilo de célula definida no css-->
+			<a href="imagens\peresgrande.jpg" target="_blank"><!--hiperligação para a imagem de 900x1600, com a feature blank para abrir um novo separador, quando clicada-->
+				<img src="imagens\perespequeno.jpg" alt="Caricatura Perés"><!--display da imagem 75x100 que está na pasta imagens e definimos o texto alternativo-->
+			</a>
+			<br>Pedro Peres<br>nº21<br>12.2<!--nome número e turma-->
+		</td>
+		<td class="tg-ladoesquerdo"><!--habitante do lado esquerdo da sala de aula, com o estilo de célula definida no css-->
+			<a href="imagens\silvagrande.jpg" target="_blank"><!--hiperligação para a imagem de 900x1600, com a feature blank para abrir um novo separador, quando clicada-->
+				<img src="imagens\silvapequeno.jpg" alt="Caricatura Silva"><!--display da imagem 75x100 que está na pasta imagens e definimos o texto alternativo-->
+			</a>
+			<br>João Silva <br>nº16<br>12.2<!--nome número e turma-->
+		</td>
+		<td class="tg-pink"><!--zona não habitada da sala de aula-->
+		</td>
+		<td class="tg-pink"><!--zona não habitada da sala de aula-->
+		</td>
+		<td class="tg-ladodireito"><!--habitante do lado direito da sala de aula, com o estilo de célula definida no css-->
+			<a href="imagens\azevedogrande.jpg" target="_blank"><!--hiperligação para a imagem de 900x1600, com a feature blank para abrir um novo separador, quando clicada-->
+				<img src="imagens\azevedopequeno.jpg" alt="Caricatura Azevedo"><!--display da imagem 75x100 que está na pasta imagens e definimos o texto alternativo-->
+			</a><br>João Azevedo<br>nº14<br>12.2<!--nome número e turma-->
+		</td>
+		<td class="tg-ladodireito">
+			<a href="imagens\nunogrande.jpg" target="_blank"><!--hiperligação para a imagem de 900x1600, com a feature blank para abrir um novo separador, quando clicada-->
+				<img src="imagens\nunopequeno.jpg" alt="Caricatura Nuno"><!--display da imagem 75x100 que está na pasta imagens e definimos o texto alternativo-->
+			</a>
+			<br>Nuno Pires<br>nº19<br>12.2<!--nome número e turma-->
+		</td>
+		<td class="tg-ladodireito"><!--habitante do lado direito da sala de aula, com o estilo de célula definida no css-->
+			<a href="imagens\danielgrande.jpg" target="_blank"><!--hiperligação para a imagem de 900x1600, com a feature blank para abrir um novo separador, quando clicada-->
+				<img src="imagens\danielpequeno.jpg" alt="Caricatura Daniel"><!--display da imagem 75x100 que está na pasta imagens e definimos o texto alternativo-->
+			</a>
+			<br>Daniel Dias<br>nº4<br>12.2<!--nome número e turma-->
+		</td>
+	</tr>
+	<tr>
+		<td class="tg-pink"><!--zona não habitada da sala de aula-->
+		</td>
+		<td class="tg-pink"><!--zona não habitada da sala de aula-->
+		</td>
+		<td class="tg-pink"><!--zona não habitada da sala de aula-->
+		</td>
+		<td class="tg-pink"><!--zona não habitada da sala de aula-->
+		</td>
+		<td class="tg-pink"><!--zona não habitada da sala de aula-->
+		</td>
+		<td class="tg-pink"><!--zona não habitada da sala de aula-->
+		</td>
+		<td class="tg-ladodireito"><!--habitante do lado direito da sala de aula, com o estilo de célula definida no css-->
+			<a href="imagens\antoniogrande.jpg" target="_blank"><!--hiperligação para a imagem de 900x1600, com a feature blank para abrir um novo separador, quando clicada-->
+				<img src="imagens\antoniopequeno.jpg" alt="Caricatura António"><!--display da imagem 75x100 que está na pasta imagens e definimos o texto alternativo-->
+			</a>
+			<br>António Amaral<br>nº2<br>12.2<!--nome número e turma-->
+		</td>
+		<td class="tg-pink"><!--zona não habitada da sala de aula-->
+		</td>
+		<td class="tg-ladodireito"><!--habitante do lado direito da sala de aula, com o estilo de célula definida no css-->
+			<a href="imagens\pedrogrande.jpg" target="_blank"><!--hiperligação para a imagem de 900x1600, com a feature blank para abrir um novo separador, quando clicada-->
+				<img src="imagens\pedropequeno.jpg" alt="Caricatura Pedro Filipe"><!--display da imagem 75x100 que está na pasta imagens e definimos o texto alternativo-->  
+			</a>
+			Pedro Filipe<br>nº22<br>12.2<!--nome número e turma-->
+		</td>
+	</tr>
+</table>
